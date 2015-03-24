@@ -256,12 +256,13 @@ a.tar span {
 
 a.code {
   background: transparent url(../images/code.png) no-repeat 0 2px;
-  width: 30px;
+  /*width: 30px;*/
+  padding-left: 35px;
   height: 21px;
   display: block;
   opacity: 0.8;
   display: inline-block;
-  text-indent: -10000px;
+  /*text-indent: -10000px;*/
   -moz-opacity: 0.8;
   filter:alpha(opacity=8);
   -webkit-transition: opacity ease-in-out 0.3s;
@@ -319,20 +320,6 @@ footer .creds small {
   font-size: 10px;
   text-align: right;
   margin-left: 15px;
-}
-
-footer .owner .avatar {
-  background-color: #666;
-  display: block;
-  margin: -19px 10px 0 0;
-  width: 60px;
-  float: left;
-}
-
-footer .owner img {
-  display: block;
-  border: 1px solid #2a2a2a;
-  margin: 5px;
 }
 
 footer .owner p {
