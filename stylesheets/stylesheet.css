@@ -89,10 +89,23 @@ h1.title {
   box-shadow: 0 0 5px #b1b1b1;
 }
 
-p.tagline {
+.tagline {
   padding: 20px 20px 0;
   color: rgb(41, 52, 62);
   font-size: 17px;
+}
+
+.tagline ul {
+  text-align: center;
+}
+
+.tagline ul li {
+  display: inline;
+}
+
+.tagline ul li img {
+  height: 100px;
+  padding: 0px 10px;
 }
 
 #main {
