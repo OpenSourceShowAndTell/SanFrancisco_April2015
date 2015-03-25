@@ -108,6 +108,41 @@ h1.title {
   padding: 0px 10px;
 }
 
+.speaker ul li img {
+  height: 200px;
+}
+
+.speaker ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.speaker ul {
+
+  float: left;
+}
+
+.speaker {
+
+  text-align: center;
+  padding: 0 50px;
+
+}
+
+.submit {
+
+  clear: both;
+
+}
+
+.conduct {
+
+
+
+}
+
 #main {
   margin-top: 20px;
   padding: 0 20px 90px;
