@@ -12,7 +12,6 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="javascripts/script.js"></script>
   <script src="https://d26b395fwzu5fz.cloudfront.net/3.2.4/keen.min.js" type="text/javascript"></script>
-  <script type="text/javascript" src="javascripts/keen-local-storage.js"></script>
   <script type="text/javascript" src="javascripts/common-web.js"></script>
 
 
@@ -21,7 +20,6 @@
     projectId: "551351932fd4b114c0263db0",
     writeKey: "5b3dd744087ab91315bdd8d5e761a2eabed06a7b221f0ea4a1a615b411a9eb3eb31e37137c89f7544d2218901e14e06c689d66fb56abed5e871dcde4866ed29f73aab9b23a29c8cec6faf82a28503db4d05d6115c0a89e48250ea9b985431a19d3970b5d14c38074b4e2ae49a53b329f"
     });
-    CommonWeb.Keen.Client = client
     CommonWeb.addGlobalProperties(CommonWeb.Keen.globalProperties);
     CommonWeb.Callback = CommonWeb.Keen.Callback;
   </script>
@@ -44,7 +42,7 @@
             <ul>
             <li><a href="https://www.rainforestqa.com/" target=_"blank"><img src="https://s3-us-west-2.amazonaws.com/elof/opensourceshowtell/rainforest.png" /></a></li>
             <li><a href="https://keen.io" target=_"blank"><img src="https://s3-us-west-2.amazonaws.com/elof/opensourceshowtell/Keen-IO-Logo-no-text-transparent.png" /></a></li>
-            <li><a href="https://segment.com target=_"blank"><img src="https://s3-us-west-2.amazonaws.com/elof/opensourceshowtell/segment-circle.png" /></a></li>
+            <li><a href="https://segment.com" target=_"blank"><img src="https://s3-us-west-2.amazonaws.com/elof/opensourceshowtell/segment-circle.png" /></a></li>
             </ul>
         </div>
         <div id="main" role="main">
@@ -85,7 +83,7 @@
       <li>Australian designer & front-end engineer living in San Francisco. You can read his musings <a href="http://anthonyshort.me/">here.</a></li>
       </ul>
       </span>
-      
+
       <span>
       <ul>
       <li><img src="https://s3.amazonaws.com/keen-event-images/Nahid_opensourceshowandtell.png" /></li>
@@ -138,19 +136,10 @@
     </div>
 
     <script language="javascript">
-    	CommonWeb.track();
 
-    var pageview = {
-        "load": [
-    { item: "golden gadget" },
-    { item: "a different gadget" }
-                ]
-    };
-
-// Send multiple events to several collections
-client.addEvent(pageview, function(){
-
-});
+    CommonWeb.trackPageview();
+    CommonWeb.trackClicks();
+    CommonWeb.trackSession();
 
     </script>
 
