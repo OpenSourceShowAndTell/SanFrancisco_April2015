@@ -80,8 +80,8 @@ h1.title {
   text-align: center;
 }
 
-.wrapper {
-  width: 675px;
+#wrapper {
+  width: 703px;
   margin: 0 auto;
 }
 
@@ -94,7 +94,7 @@ h1.title {
 
 
 @media only screen and (max-width: 700px) {
-  .wrapper { width: 100%; }
+  #wrapper { width: 100%; }
 }
 
 .tagline {
