@@ -140,14 +140,10 @@ h1.title {
 }
 
 .submit {
-
   clear: both;
-
 }
 
 .conduct {
-
-
 
 }
 
@@ -167,52 +163,6 @@ h1.title {
 
 .download-bar .inner {
   overflow: hidden;
-}
-
-.download-bar .watch-fork iframe {
-  display: block;
-  float: left;
-  border-right: 1px solid #ddd;
-  padding-right: 5px;
-}
-.download-bar .watch-fork iframe.last {
-  border-right: 0 none;
-  padding-right: 0;
-  padding-left: 5px;
-  border-left: 1px solid #fff;
-}
-.download-bar .watch-fork {
-  overflow: hidden;
-  float: right;
-  background-color: #eee;
-  padding: 5px;
-  border-radius: 3px;
-}
-
-.download-bar .blc {
-  border: 10px solid black;
-  border-color: transparent transparent black;
-  width: 0;
-  height: 0;
-  display: block;
-  position: absolute;
-  bottom: -15px;
-  left: 0;
-  -moz-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
-.download-bar .trc {
-  border: 10px solid black;
-  border-color:  black transparent transparent;
-  width: 0;
-  height: 0;
-  display: block;
-  position: absolute;
-  top: -15px;
-  right: 0;
-  -moz-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
 }
 
 .download-bar .avatar {
@@ -280,84 +230,6 @@ h1.title {
   filter:alpha(opacity=1);
 }
 
-.current-section a.zip {
-  margin-right: 8px;
-}
-
-a.zip,
-a.zip span {
-  background: transparent url(../images/zip.png) no-repeat 0 0;
-  width: 30px;
-  height: 21px;
-  opacity: 0.8;
-  display: inline-block;
-  text-indent: -10000px;
-  -moz-opacity: 0.8;
-  filter:alpha(opacity=8);
-  -webkit-transition: opacity ease-in-out 0.3s;
-}
-
-a.tar,
-a.tar span {
-  background: transparent url(../images/tar.png) no-repeat 0 0;
-  width: 30px;
-  height: 21px;
-  opacity: 0.8;
-  display: inline-block;
-  text-indent: -10000px;
-  -moz-opacity: 0.8;
-  filter:alpha(opacity=8);
-  -webkit-transition: opacity ease-in-out 0.3s;
-}
-
-a.code {
-  background: transparent url(../images/code.png) no-repeat 0 2px;
-  /*width: 30px;*/
-  padding-left: 35px;
-  height: 21px;
-  display: block;
-  opacity: 0.8;
-  display: inline-block;
-  /*text-indent: -10000px;*/
-  -moz-opacity: 0.8;
-  filter:alpha(opacity=8);
-  -webkit-transition: opacity ease-in-out 0.3s;
-}
-
-a.zip:hover,
-a.tar:hover,
-a.code:hover {
-  opacity: 1;
-  -moz-opacity: 1;
-  filter:alpha(opacity=1);
-}
-
-a.download-button {
-  border: 1px solid black;
-  border-radius: 3px;
-  display: inline-block;
-  text-indent: 0!important;
-  width: auto;
-  float: right;
-  background: #999; /* for non-css3 browsers */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#37ADD4', endColorstr='#1B657E'); /* for IE */
-  background: -webkit-gradient(linear, left top, left bottom, from(#37ADD4), to(#1B657E)); /* for webkit browsers */
-  background: -moz-linear-gradient(top,  #37ADD4,  #1B657E); /* for firefox 3.6+ */
-  height: auto;
-  margin-left: 10px;
-}
-
-a.download-button span {
-  background-position: 10px 5px;
-  width: auto;
-  height: auto;
-  padding: 5px 10px;
-  padding-left: 45px;
-  display: inline-block;
-  text-indent: 0!important;
-  color: #fff;
-}
-
 footer {
   margin-bottom: 60px;
   padding-bottom: 60px;
@@ -369,13 +241,6 @@ footer .owner {
   padding: 5px 15px;
   margin: -67px -10px 35px;
   color: #d6d6d6;
-}
-
-footer .creds small {
-  float: right;
-  font-size: 10px;
-  text-align: right;
-  margin-left: 15px;
 }
 
 footer .owner p {
