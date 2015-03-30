@@ -34,15 +34,9 @@ body {
   background: url(https://s3-us-west-2.amazonaws.com/elof/opensourceshowtell/OSSATSF2015.png) 50% 50% no-repeat;
   height: 222px;
   text-align: center;
+  min-width: 675px;
   max-width: 100%;
 }
-
-/*.customheader img {
-    display: block;
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-}*/
 
 ol, ul {
   list-style: none;
@@ -89,7 +83,7 @@ h1.title {
   text-align: center;
 }
 
-#wrapper {
+.wrapper {
   width: 675px;
   margin: 0 auto;
 }
@@ -97,10 +91,6 @@ h1.title {
 #container {
   background: #ddd url(../images/pattern.png);
 }
-
-/*@media only screen and (max-width: 731px) {
-  #wrapper { width: 100%; }
-}*/
 
 .tagline {
   padding: 20px 20px 0;
@@ -252,6 +242,48 @@ footer .owner p {
 footer .owner p a {
   font-size: 16px;
   font-style: italic;
+}
+
+footer .creds small {
+  float: right;
+  font-size: 10px;
+  text-align: right;
+  margin-left: 15px;
+}
+
+footer .owner .avatar {
+  background-color: #666;
+  display: block;
+  margin: -19px 10px 0 0;
+  width: 60px;
+  float: left;
+}
+
+footer .owner img {
+  display: block;
+  border: 1px solid #2a2a2a;
+  margin: 5px;
+}
+
+a.code {
+  background: transparent url(../images/code.png) no-repeat 0 2px;
+  width: 30px;
+  height: 21px;
+  padding-left: 35px;
+  text: bold;
+  display: block;
+  opacity: 0.8;
+  display: inline;
+  /*text-indent: -10000px;*/
+  -moz-opacity: 0.8;
+  filter:alpha(opacity=8);
+  -webkit-transition: opacity ease-in-out 0.3s;
+}
+
+a.code:hover {
+  opacity: 1;
+  -moz-opacity: 1;
+  filter:alpha(opacity=1);
 }
 
 /* Markdown */
