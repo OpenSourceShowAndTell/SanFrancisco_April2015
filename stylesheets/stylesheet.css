@@ -31,10 +31,10 @@ body {
   line-height: 1;
 }
 .customheader {
-  /*background: url(https://s3-us-west-2.amazonaws.com/elof/opensourceshowtell/OSSATSF2015.png) 50% 50% no-repeat;*/
+  background: url(https://s3-us-west-2.amazonaws.com/elof/opensourceshowtell/OSSATSF2015.png) 50% 50% no-repeat;
   height: 222px;
   text-align: center;
-  /*max-width: 100%;*/
+  max-width: 100%;
 }
 
 /*.customheader img {
