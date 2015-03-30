@@ -82,15 +82,16 @@ h1.title {
 }
 
 #wrapper {
-  width: 675px;
+  max-width: 675px;
   margin: 0 auto;
+  width: 100%;
 }
 
 #container {
   background: #ddd url(../images/pattern.png);
 }
 
-/*@media only screen and (max-width: 700px) {
+/*@media only screen and (max-width: 731px) {
   #wrapper { width: 100%; }
 }*/
 
@@ -125,15 +126,12 @@ h1.title {
 }
 
 .speaker ul {
-
   float: left;
 }
 
 .speaker {
-
   text-align: center;
   padding: 0 50px;
-
 }
 
 .submit {
