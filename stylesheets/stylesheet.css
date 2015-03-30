@@ -80,10 +80,10 @@ h1.title {
   text-align: center;
 }
 
-/*#wrapper {
-  width: 731px;
+#wrapper {
+  width: 675px;
   margin: 0 auto;
-}*/
+}
 
 #container {
   background: #ddd url(../images/pattern.png);
