@@ -15,7 +15,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+  /*margin: 0;*/
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -88,6 +88,10 @@ h1.title {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 100%) {
+  .wrapper { width: 100%; }
+}
+
 #container {
   background: #ddd url(../images/pattern.png);
 }
@@ -117,7 +121,7 @@ h1.title {
 
 .speaker ul li {
   list-style: none;
-  margin: 0;
+  /*margin: 0;*/
   padding: 0;
   display: block;
 }
@@ -407,7 +411,7 @@ a.code:hover {
 }
 
 .markdown-body table td * {
-  margin: 0;
+  /*margin: 0;*/
 }
 
 .markdown-body td {
