@@ -83,6 +83,25 @@ h1.title {
   text-align: center;
 }
 
+a.btn {
+  max-width: 220px;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  color: white;
+  background: rgb(39, 170, 225); }
+  a.btn:hover {
+  transform: scale(1.05, 1.05);
+  }
+
+
 .wrapper {
   width: 675px;
   margin: 0 auto;
