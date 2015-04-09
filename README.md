@@ -1,7 +1,7 @@
 #Open Source Show and Tell
 ##Friday April 24th, 2015 in San Francisco, CA from 2pm - 6pm
 
-###[Click here to submit a topic for a speaking spot // submit is as an issue](https://github.com/OpenSourceShowAndTell/SanFrancisco_April2015/issues/new)
+###[Click here to submit a topic for a speaking spot // submit as an issue](https://github.com/OpenSourceShowAndTell/SanFrancisco_April2015/issues/new)
 
 ###Code of Conduct (Please feel free to make suggestions or edits to our code of conduct via pull requests)
 
