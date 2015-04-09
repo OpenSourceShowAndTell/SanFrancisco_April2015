@@ -2,8 +2,8 @@
 //   projectId: "551351932fd4b114c0263db0",
 //   readKey: "bea7b14749615eae8e9788a7aa7e932bf50d9e0303283d577745082694d27344f0a06cf1a43ef5e318de2d67bccafee87531f02931c4da7d0eff147dd53f40097e54a0a0e4b739893b64fc83f133fd93eecbfdcadddbe0f2b48df148157a0564b19a2d71b74aa698fad702b302fbe7a9"
 // });
-//
-// Keen.ready(function(){
+
+Keen.ready(function(){
 
 
   // ----------------------------------------
