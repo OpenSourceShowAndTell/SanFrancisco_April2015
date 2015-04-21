@@ -147,6 +147,7 @@ a.btn {
 
 .speaker ul {
   float: left;
+  max-width: 220px;
 }
 
 .speaker {
@@ -156,10 +157,6 @@ a.btn {
 
 .submit {
   clear: both;
-}
-
-.conduct {
-
 }
 
 #main {
